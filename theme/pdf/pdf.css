@@ -39,7 +39,7 @@ section[data-type="chapter"], section[data-type="titlepage"] {
   page-break-inside: avoid;
   margin: 0;
   font-size: 32pt;
-  max-height: 7.9in;
+  max-height: 7.75in;
   width: 100%;
   -ah-overflow: condense;
   -ah-overflow-condense: font-size;
@@ -81,13 +81,14 @@ section[data-type="titlepage"] hr {
 }
 
 section[data-type="titlepage"] p, section[data-type="titlepage"] li {
+  font-size: 22pt;
   margin-top: 0;
   margin-bottom: 0;
   color: #000;
 }
 
 section[data-type="titlepage"] p:first-of-type {
-  margin-top: 50px;
+  margin-top: 1in;
 }
 
 section[data-type="titlepage"], section[data-type="chapter"] {
