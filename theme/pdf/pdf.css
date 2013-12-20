@@ -24,22 +24,23 @@ body {
 
 h1 {
   font-family: sans-serif;
-  font-size: 72pt;
+  font-size: 60pt;
   color: #990000;
 }
 
 p {
-  font-size: 48pt;
+  font-size: 32pt;
 }
 
 ul {
   font-family: sans-serif;
-  font-size: 48pt;
+  font-size: 32pt;
   text-align: left;
 }
 
 li {
   margin-bottom: 1em;
+  font-size: 32pt;
 }
 
 /* specifics */
@@ -49,6 +50,8 @@ section[data-type="chapter"], section[data-type="titlepage"] {
   text-align: center;
   page-break-after: always;
   page-break-inside: avoid;
+  height: 100%;
+  width: 100%;
   -ah-overflow-condense: font-size;
 }
 
