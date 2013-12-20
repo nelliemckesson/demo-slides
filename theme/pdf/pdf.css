@@ -2,8 +2,8 @@
   size: 16in 9in;
   margin: 0.5in;
   background-image: url('../html/footer.png');
-  background-position: bottom left;
-  background-size: auto 45px;
+  background-position: 0.5in 15in;
+  background-size: auto 0.5in;
   background-repeat: no-repeat;
 }
 
