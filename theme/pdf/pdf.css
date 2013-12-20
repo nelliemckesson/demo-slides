@@ -25,12 +25,6 @@ body {
 }
 
 p {
-
-}
-
-ul {
-  font-family: sans-serif;
-  text-align: left;
 }
 
 li {
@@ -46,12 +40,17 @@ section[data-type="chapter"], section[data-type="titlepage"] {
   page-break-inside: avoid;
   margin: 0;
   font-size: 32pt;
-  max-height: 6in;
+  max-height: 7.5in;
   width: 100%;
   -ah-overflow: condense;
   -ah-overflow-condense: font-size;
   -ah-overflow-condense-limit-font-size: 4pt hidden;
-  -ah-text-align-last: center;
+  -ah-text-align-last: left;
+}
+
+ul {
+  font-family: sans-serif;
+  text-align: left;
 }
 
 h1 {
