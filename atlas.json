@@ -9,7 +9,7 @@
   "formats": {
     "pdf": {
       "version": "web",
-      "toc": true,
+      "toc": false,
       "index": false
     },
     "epub": {
