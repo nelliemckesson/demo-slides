@@ -53,7 +53,9 @@ section[data-type="chapter"], section[data-type="titlepage"] {
   page-break-after: always;
   page-break-inside: avoid;
   height: 7in;
+  overflow: condense;
   -ah-overflow-condense: font-size;
+  -ah-overflow-condense-limit-font-size: 4pt hidden;
 }
 
 #slide-0 {
