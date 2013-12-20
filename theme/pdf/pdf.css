@@ -45,12 +45,14 @@ section[data-type="chapter"], section[data-type="titlepage"] {
   -ah-overflow: condense;
   -ah-overflow-condense: font-size;
   -ah-overflow-condense-limit-font-size: 4pt hidden;
-  -ah-text-align-last: left;
+  -ah-text-align-last: center;
 }
 
 ul {
   font-family: sans-serif;
   text-align: left;
+  -ah-text-align-last: left;
+  max-width: 10in;
 }
 
 h1 {
