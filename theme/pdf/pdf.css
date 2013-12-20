@@ -2,7 +2,7 @@
   size: 16in 9in;
   margin: 0.5in;
   background-image: url('../html/footer.png');
-  background-position: 0.1in 8in;
+  background-position: 0.1in 8.25in;
   background-size: auto 0.5in;
   background-repeat: no-repeat;
 }
@@ -57,7 +57,7 @@ ul {
 
 h1 {
   font-family: sans-serif;
-  font-size: 48pt;
+  font-size: 40pt;
   color: #990000;
 }
 
@@ -68,7 +68,9 @@ h1 {
 }
 
 section[data-type="titlepage"] h1 {
+  font-size: 48pt;
   color: #000;
+  margin-top: 0.5in;
   text-shadow: -1px -1px 5px #d8d8d8;
 }
 
@@ -81,14 +83,14 @@ section[data-type="titlepage"] hr {
 }
 
 section[data-type="titlepage"] p, section[data-type="titlepage"] li {
-  font-size: 22pt;
+  font-size: 18pt;
   margin-top: 0;
   margin-bottom: 0;
   color: #000;
 }
 
 section[data-type="titlepage"] p:first-of-type {
-  margin-top: 1in;
+  margin-top: 2in;
 }
 
 section[data-type="titlepage"], section[data-type="chapter"] {
