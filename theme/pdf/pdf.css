@@ -25,18 +25,16 @@ body {
 }
 
 p {
-  font-size: 32pt;
+
 }
 
 ul {
   font-family: sans-serif;
-  font-size: 32pt;
   text-align: left;
 }
 
 li {
   margin-bottom: 1em;
-  font-size: 32pt;
 }
 
 /* specifics */
@@ -48,7 +46,6 @@ section[data-type="chapter"], section[data-type="titlepage"] {
   page-break-inside: avoid;
   margin: 0;
   font-size: 32pt;
-  height: 5in;
   max-height: 6in;
   width: 100%;
   -ah-overflow: condense;
