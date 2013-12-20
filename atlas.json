@@ -1,26 +1,32 @@
 {
   "files": [
-    "cover.html",
-    "01-titlepage.html",
-    "02-copyright.html",
-    "03-toc.html",
-    "04-preface.html",
-    "05-chapter.html",
-    "06-appendix.html"
+    "titlepage.html",
+    "slide01.html",
+    "slide02.html",
+    "slide03.html",
+    "slide04.html"
   ],
   "formats": {
     "pdf": {
       "version": "web",
-      "toc": true
+      "toc": true,
+      "index": false
     },
     "epub": {
+      "index": false,
+      "toc": false,
+      "epubcheck": false
     },
     "mobi": {
+      "index": false,
+      "toc": false
     },
     "html": {
-      "toc": true
+      "toc": false,
+      "index": false,
+      "consolidated": true
     }
   },
-  "theme": "oreillymedia/atlas_tech1c_theme",
+  "theme": "",
   "title": "demo-slides"
 }
