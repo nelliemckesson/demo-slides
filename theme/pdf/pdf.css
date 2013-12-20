@@ -11,7 +11,7 @@
  /* globals */
 
 html {
-  background-image: url('footer.png');
+  background-image: url('../html/footer.png');
   background-position: bottom left;
   background-size: auto 45px;
   background-repeat: no-repeat;
@@ -24,13 +24,17 @@ body {
 
 h1 {
   font-family: sans-serif;
-  font-size: 3em;
+  font-size: 72pt;
   color: #990000;
+}
+
+p {
+  font-size: 48pt;
 }
 
 ul {
   font-family: sans-serif;
-  font-size: 2em;
+  font-size: 48pt;
   text-align: left;
 }
 
@@ -49,7 +53,7 @@ section[data-type="chapter"], section[data-type="titlepage"] {
 }
 
 #slide-0 {
-  background-image: url('oreilly_tarsier.png');
+  background-image: url('../html/oreilly_tarsier.png');
   background-position: bottom left;
   background-repeat: no-repeat;
 }
