@@ -52,6 +52,7 @@ section[data-type="chapter"], section[data-type="titlepage"] {
   text-align: center;
   page-break-after: always;
   page-break-inside: avoid;
+  height: 7in;
   -ah-overflow-condense: font-size;
 }
 
