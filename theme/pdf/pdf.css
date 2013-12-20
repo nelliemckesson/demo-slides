@@ -35,6 +35,7 @@ li {
 
 section[data-type="chapter"], section[data-type="titlepage"] {
   text-align: center;
+  vertical-align: middle;
   page-break-after: always;
   page-break-inside: avoid;
   margin: 0;
@@ -68,7 +69,7 @@ h1 {
 }
 
 section[data-type="titlepage"] h1 {
-  font-size: 48pt;
+  font-size: 55pt;
   color: #000;
   margin-top: 0.5in;
   text-shadow: -1px -1px 5px #d8d8d8;
@@ -83,14 +84,14 @@ section[data-type="titlepage"] hr {
 }
 
 section[data-type="titlepage"] p, section[data-type="titlepage"] li {
-  font-size: 18pt;
+  font-size: 16pt;
   margin-top: 0;
   margin-bottom: 0;
   color: #000;
 }
 
 section[data-type="titlepage"] p:first-of-type {
-  margin-top: 2in;
+  margin-top: 1.25in;
 }
 
 section[data-type="titlepage"], section[data-type="chapter"] {
