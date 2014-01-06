@@ -103,12 +103,8 @@ section[data-type="titlepage"] p:first-of-type {
   color: #660000;
 }
 
-section[data-type="titlepage"], section[data-type="chapter"] {
-  height: 7.75in;
-  width: 15in;
-  margin: auto;
-  position: absolute;
-  top: 0; left: 0; bottom: 0; right: 0;
+section[data-type="titlepage"] *, section[data-type="chapter"] * {
+  vertical-align: middle;
 }
 
 /* vertical centering */
