@@ -104,6 +104,7 @@ section[data-type="titlepage"] p:first-of-type {
 
 .black {
   page: black;
+  color: #fff;
 }
 
 /* vertical centering */
