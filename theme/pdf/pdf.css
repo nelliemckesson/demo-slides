@@ -118,12 +118,12 @@ section[data-type="titlepage"] p:first-of-type {
 }
 
 section[data-type="chapter"] *, section[data-type="titlepage"] * {
-  color: #d8d8d8;
+  color: #fff;
 }
 
 section[data-type="chapter"] h1, 
 section[data-type="chapter"] strong, 
 section[data-type="titlepage"] h1,
 section[data-type="titlepage"] strong {
-  color: #fff;
+  color: #009999;
 }
