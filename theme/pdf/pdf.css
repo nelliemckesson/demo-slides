@@ -103,30 +103,22 @@ section[data-type="titlepage"] p:first-of-type {
   color: #660000;
 }
 
-section[data-type="titlepage"] *, section[data-type="chapter"] * {
-  display: inline-block;
-  vertical-align: middle;
-}
-
 /* vertical centering */
 
-/*
+
 .vcenter {
   text-align:center;
-  max-height:100%;
 }
   
 .vcenter {
     padding:0;
-    position:absolute;
-    left:0;
-    right:0;
-    top:30%;
-    -webkit-transform:translate(0, -30%);
-    -moz-transform:translate(0, -30%);
-    -ms-transform:translate(0, -30%);
-    -o-transform:translate(0, -30%);
-    transform:translate(0, -30%);
+    position:relative;
+    top:40%;
+    -webkit-transform:translate(0, -40%);
+    -moz-transform:translate(0, -40%);
+    -ms-transform:translate(0, -40%);
+    -o-transform:translate(0, -40%);
+    transform:translate(0, -40%);
 }
 
 .vcenter h1 {
@@ -139,4 +131,3 @@ section[data-type="titlepage"] *, section[data-type="chapter"] * {
   -o-transform:none;
   transform:none;
 }
-*/
