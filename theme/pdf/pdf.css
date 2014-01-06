@@ -54,7 +54,7 @@ ul {
 ul.hcenter {
   text-align: center;
   -ah-text-align-last: center;
-  width: 100%;
+  /*width: 100%;*/
 }
 
 ul.hcenter li {
