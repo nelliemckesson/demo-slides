@@ -113,17 +113,16 @@ section[data-type="titlepage"] p:first-of-type {
 }
 
 @page {
-  background-color: black;
-  color: #fff;
-}
+      background-color: black;
+    }
 
-section[data-type="chapter"] *, section[data-type="titlepage"] * {
-  color: #fff;
-}
+    section[data-type="chapter"] *, section[data-type="titlepage"] * {
+      color: #fff;
+    }
 
-section[data-type="chapter"] h1, 
-section[data-type="chapter"] strong, 
-section[data-type="titlepage"] h1,
-section[data-type="titlepage"] strong {
-  color: #aaa;
-}
+    section[data-type="chapter"] h1, 
+    section[data-type="chapter"] strong, 
+    section[data-type="titlepage"] h1,
+    section[data-type="titlepage"] strong {
+      color: #990000;
+    }
