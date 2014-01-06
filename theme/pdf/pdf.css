@@ -7,6 +7,10 @@
   background-repeat: no-repeat;
 }
 
+@page black {
+  background-color: black;
+}
+
 /* globals */
 
 *, *:before, *:after {
@@ -94,6 +98,12 @@ section[data-type="titlepage"] p:first-of-type {
 
 .deck-status {
   color: #660000;
+}
+
+/* black background */
+
+.black {
+  page: black;
 }
 
 /* vertical centering */
