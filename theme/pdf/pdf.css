@@ -51,7 +51,7 @@ ul {
   margin-left: 2.5in;
 }
 
-ul.hcenter {
+.hcenter {
   text-align: center;
   -ah-text-align-last: center;
 }
@@ -66,7 +66,7 @@ h1 {
   color: #990000;
 }
 
-#slide-0 {
+section[data-type="titlepage"] {
   background-image: url('../html/oreilly_tarsier.png');
   background-position: bottom left;
   background-repeat: no-repeat;
@@ -104,7 +104,7 @@ section[data-type="titlepage"] p:first-of-type {
 
 /* vertical centering */
 
-section[data-type="chapter"], section[data-type="titlepage"] {
+.vcenter {
     padding:0;
     position:relative;
     top:40%;
@@ -115,7 +115,7 @@ section[data-type="chapter"], section[data-type="titlepage"] {
     transform:translate(0, -40%);
 }
 
-section[data-type="chapter"] h1, section[data-type="titlepage"] h1 {
+.vcenter h1 {
   position:relative;
   top:auto;
   padding:0;
