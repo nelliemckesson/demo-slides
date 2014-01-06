@@ -3,7 +3,7 @@
   margin: 0.5in;
   background-image: url('../html/footer.png');
   background-position: 0.1in 8.25in;
-  background-size: auto 0.6in;
+  background-size: auto 0.55in;
   background-repeat: no-repeat;
 }
 
@@ -54,6 +54,14 @@ ul {
   -ah-text-align-last: left;
   width: 10in;
   margin-left: 2.5in;
+}
+
+ul.hcenter {
+  text-align: center;
+}
+
+ul.hcenter li {
+  list-style-position:inside;
 }
 
 h1 {
@@ -109,7 +117,7 @@ section[data-type="titlepage"], section[data-type="chapter"] {
   max-height:100%;
 }
   
-.csstransforms .vcenter {
+.vcenter {
     padding:0;
     position:absolute;
     left:0;

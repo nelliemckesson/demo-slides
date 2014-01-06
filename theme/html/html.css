@@ -30,6 +30,14 @@ ul {
   text-align: left;
 }
 
+ul.hcenter {
+  text-align: center;
+}
+
+ul.hcenter li {
+  list-style-position:inside;
+}
+
 li {
   margin-bottom: 1em;
 }
