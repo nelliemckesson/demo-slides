@@ -104,11 +104,7 @@ section[data-type="titlepage"] p:first-of-type {
 
 /* vertical centering */
 
-
-.vcenter {
-}
-  
-.vcenter {
+section[data-type="chapter"], section[data-type="titlepage"] {
     padding:0;
     position:relative;
     top:40%;
@@ -119,7 +115,7 @@ section[data-type="titlepage"] p:first-of-type {
     transform:translate(0, -40%);
 }
 
-.vcenter h1 {
+section[data-type="chapter"] h1, section[data-type="titlepage"] h1 {
   position:relative;
   top:auto;
   padding:0;
