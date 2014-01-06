@@ -121,6 +121,9 @@ section[data-type="chapter"] *, section[data-type="titlepage"] * {
   color: #E8E8E8;
 }
 
-h1, strong {
+section[data-type="chapter"] h1, 
+section[data-type="chapter"] strong, 
+section[data-type="titlepage"] h1,
+section[data-type="titlepage"] strong {
   color: #fff;
 }
