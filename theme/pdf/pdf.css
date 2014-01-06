@@ -54,7 +54,6 @@ ul {
 ul.hcenter {
   text-align: center;
   -ah-text-align-last: center;
-  /*width: 100%;*/
 }
 
 ul.hcenter li {
@@ -107,7 +106,6 @@ section[data-type="titlepage"] p:first-of-type {
 
 
 .vcenter {
-  text-align:center;
 }
   
 .vcenter {
