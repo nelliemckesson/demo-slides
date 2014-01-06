@@ -113,10 +113,6 @@ section[data-type="titlepage"], section[data-type="chapter"] {
 }
 
 section[data-type="titlepage"], section[data-type="chapter"] {
-    display: table;
-}
-
-section[data-type="titlepage"] *, section[data-type="chapter"] * {
     display: table-cell;
     vertical-align: middle;
 }
