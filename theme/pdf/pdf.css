@@ -58,6 +58,8 @@ ul {
 
 ul.hcenter {
   text-align: center;
+  -ah-text-align-last: center;
+  width: 100%;
 }
 
 ul.hcenter li {
@@ -110,8 +112,18 @@ section[data-type="titlepage"], section[data-type="chapter"] {
   color: #660000;
 }
 
+section[data-type="titlepage"], section[data-type="chapter"] {
+    display: table;
+}
+
+section[data-type="titlepage"] *, section[data-type="chapter"] * {
+    display: table-cell;
+    vertical-align: middle;
+}
+
 /* vertical centering */
 
+/*
 .vcenter {
   text-align:center;
   max-height:100%;
@@ -122,12 +134,12 @@ section[data-type="titlepage"], section[data-type="chapter"] {
     position:absolute;
     left:0;
     right:0;
-    top:40%;
-    -webkit-transform:translate(0, -40%);
-    -moz-transform:translate(0, -40%);
-    -ms-transform:translate(0, -40%);
-    -o-transform:translate(0, -40%);
-    transform:translate(0, -40%);
+    top:30%;
+    -webkit-transform:translate(0, -30%);
+    -moz-transform:translate(0, -30%);
+    -ms-transform:translate(0, -30%);
+    -o-transform:translate(0, -30%);
+    transform:translate(0, -30%);
 }
 
 .vcenter h1 {
@@ -140,3 +152,4 @@ section[data-type="titlepage"], section[data-type="chapter"] {
   -o-transform:none;
   transform:none;
 }
+*/
