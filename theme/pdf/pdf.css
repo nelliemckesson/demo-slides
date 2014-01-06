@@ -23,9 +23,6 @@ body {
   font-family: sans-serif;
 }
 
-p {
-}
-
 li {
   margin-bottom: 1em;
 }
@@ -81,7 +78,6 @@ section[data-type="titlepage"] p, section[data-type="titlepage"] li {
   font-size: 16pt;
   margin-top: 0;
   margin-bottom: 0;
-  color: #000;
 }
 
 section[data-type="titlepage"] p:first-of-type {
@@ -90,17 +86,6 @@ section[data-type="titlepage"] p:first-of-type {
 
 .deck-status {
   color: #660000;
-}
-
-/* black background */
-
-.black {
-  page: black;
-  color: #fff;
-}
-
-.black h1 {
-  color: #d40000;
 }
 
 /* vertical centering */
@@ -125,4 +110,17 @@ section[data-type="titlepage"] p:first-of-type {
   -ms-transform:none;
   -o-transform:none;
   transform:none;
+}
+
+@page {
+  background-color: black;
+  color: #fff;
+}
+
+h1 {
+  color: #d40000;
+}
+
+section[data-type="titlepage"] h1 {
+  color: #fff;
 }
