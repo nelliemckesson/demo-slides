@@ -111,18 +111,3 @@ section[data-type="titlepage"] p:first-of-type {
   -o-transform:none;
   transform:none;
 }
-
-@page {
-      background-color: black;
-    }
-
-    section[data-type="chapter"] *, section[data-type="titlepage"] * {
-      color: #fff;
-    }
-
-    section[data-type="chapter"] h1, 
-    section[data-type="chapter"] strong, 
-    section[data-type="titlepage"] h1,
-    section[data-type="titlepage"] strong {
-      color: #990000;
-    }
