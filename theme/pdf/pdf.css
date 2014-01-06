@@ -7,18 +7,13 @@
   background-repeat: no-repeat;
 }
 
+/* globals */
+
 *, *:before, *:after {
   -moz-box-sizing: border-box; 
   -webkit-box-sizing: border-box; 
   box-sizing: border-box;
- }
-
- /* globals */
-
-/*html {
-  height: 100%;
-  width: 100%;
-}*/
+}
 
 body {
   font-family: sans-serif;
@@ -104,17 +99,16 @@ section[data-type="titlepage"] p:first-of-type {
   margin-top: 1.25in;
 }
 
-section[data-type="titlepage"], section[data-type="chapter"] {
-    vertical-align: middle;
-}
-
 .deck-status {
   color: #660000;
 }
 
 section[data-type="titlepage"], section[data-type="chapter"] {
-    display: table-cell;
-    vertical-align: middle;
+  height: 7.75in;
+  width: 15in;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
 }
 
 /* vertical centering */
