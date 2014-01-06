@@ -77,14 +77,6 @@ section[data-type="titlepage"] h1 {
   text-shadow: -1px -1px 5px #d8d8d8;
 }
 
-section[data-type="titlepage"] hr {
-  width: 50%;
-  border-style: solid;
-  margin-bottom: 50px;
-  color: #d8d8d8;
-  background-color: transparent;
-}
-
 section[data-type="titlepage"] p, section[data-type="titlepage"] li {
   font-size: 16pt;
   margin-top: 0;
@@ -108,7 +100,7 @@ section[data-type="titlepage"] p:first-of-type {
 }
 
 .black h1 {
-  background-color: #fff;
+  color: #ff9999;
 }
 
 /* vertical centering */
