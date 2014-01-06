@@ -66,12 +66,6 @@ h1 {
   color: #990000;
 }
 
-section[data-type="titlepage"] {
-  background-image: url('../html/oreilly_tarsier.png');
-  background-position: bottom left;
-  background-repeat: no-repeat;
-}
-
 section[data-type="titlepage"] h1 {
   font-size: 55pt;
   color: #000;

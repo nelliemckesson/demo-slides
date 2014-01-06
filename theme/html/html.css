@@ -49,12 +49,6 @@ section[data-type="chapter"], section[data-type="titlepage"] {
   text-align: center;
 }
 
-#slide-0 {
-  background-image: url('oreilly_tarsier.png');
-  background-position: bottom left;
-  background-repeat: no-repeat;
-}
-
 section[data-type="titlepage"] h1 {
   font-size: 4em;
   color: #000;
