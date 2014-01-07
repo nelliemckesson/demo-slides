@@ -69,14 +69,14 @@ h1 {
 }
 
 section[data-type="titlepage"] h1 {
-  font-size: 55pt;
+  font-size: 58pt;
   color: #000;
   margin-top: 0.5in;
   text-shadow: -1px -1px 5px #d8d8d8;
 }
 
 section[data-type="titlepage"] p, section[data-type="titlepage"] li {
-  font-size: 16pt;
+  font-size: 14pt;
   margin-top: 0;
   margin-bottom: 0;
 }
