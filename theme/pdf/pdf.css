@@ -8,8 +8,8 @@
   background-repeat: no-repeat;*/
   @bottom-left {
     background-color: #990000;
-    background-image: url('oreilly_logo.png');
-    background-position: middle left;
+    background-image: url('oreilly_logo-01.png');
+    background-position: left center;
     background-size: auto 0.45in;
   }
   @bottom-center {
