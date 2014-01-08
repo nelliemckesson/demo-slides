@@ -11,11 +11,13 @@
               encoding="UTF-8"/>
   <xsl:preserve-space elements="*"/>
 
-<xsl:template match="h:section[@data-type='chapter']">
+<xsl:template match="h:section|h:div[contains(@data-type, 'part')]|h:aside|h:a[contains(@data-type, 'indexterm')]">
     <xsl:variable name="output-element-name">
       <xsl:call-template name="html.output.element"/>
     </xsl:variable>
- <section class="slide">
+<xsl:if match="h:section[@data-type='chapter']">
+<section class="slide">
+</xsl:if>
     <xsl:element name="{$output-element-name}" namespace="http://www.w3.org/1999/xhtml">
       <xsl:apply-templates select="@*[not(local-name() = 'id')]"/>
       <xsl:attribute name="id">
@@ -27,5 +29,7 @@
         <xsl:call-template name="generate-footnotes"/>
       </xsl:if>
     </xsl:element>
+<xsl:if match="h:section[@data-type='chapter']">
   </section>
+</xsl:if>
 </xsl:template>
