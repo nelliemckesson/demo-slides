@@ -2,10 +2,6 @@
   size: 16in 9in;
   margin: 0.5in;
   padding: 0;
-  /*background-image: url('../html/footer.png');
-  background-position: 0.1in 8.5in;
-  background-size: auto 0.55in;
-  background-repeat: no-repeat;*/
   @bottom-left {
     background-color: #990000;
     background-image: url('oreilly_logo-01.png');
