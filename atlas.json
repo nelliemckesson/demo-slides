@@ -29,6 +29,6 @@
       "consolidated": true
     }
   },
-  "theme": "",
+  "theme": "oreillymedia/oreilly_presentation_theme",
   "title": "demo-slides"
 }
