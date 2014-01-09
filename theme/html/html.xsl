@@ -15,9 +15,7 @@
     <xsl:variable name="output-element-name">
       <xsl:call-template name="html.output.element"/>
     </xsl:variable>
-<xsl:if test="//@data-type='chapter'">
 <section class="slide">
-</xsl:if>
     <xsl:element name="{$output-element-name}" namespace="http://www.w3.org/1999/xhtml">
       <xsl:apply-templates select="@*[not(local-name() = 'id')]"/>
       <xsl:attribute name="id">
@@ -29,9 +27,7 @@
         <xsl:call-template name="generate-footnotes"/>
       </xsl:if>
     </xsl:element>
-<xsl:if test="//@data-type='chapter'">
   </section>
-</xsl:if>
 </xsl:template>
 
 </xsl:stylesheet>
