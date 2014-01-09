@@ -33,11 +33,11 @@
   <xsl:when test="//h:section[@data-type='chapter']">
     <xsl:element name="section" namespace="http://www.w3.org/1999/xhtml">
       <xsl:attribute name="class">slide</xsl:attribute>
-      <xsl:value-of select="$standard-markup"/>
+      <xsl:copy-of select="$standard-markup"/>
     </xsl:element>
   </xsl:when>
   <xsl:otherwise>
-    <xsl:value-of select="$standard-markup"/>
+    <xsl:copy-of select="$standard-markup"/>
   </xsl:otherwise>
 </xsl:choose>
 </xsl:template>
