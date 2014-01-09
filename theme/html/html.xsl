@@ -15,7 +15,7 @@
     <xsl:variable name="output-element-name">
       <xsl:call-template name="html.output.element"/>
     </xsl:variable>
-<section class="slide">
+<xsl:variable name="standard-markup">
     <xsl:element name="{$output-element-name}" namespace="http://www.w3.org/1999/xhtml">
       <xsl:apply-templates select="@*[not(local-name() = 'id')]"/>
       <xsl:attribute name="id">
@@ -27,7 +27,17 @@
         <xsl:call-template name="generate-footnotes"/>
       </xsl:if>
     </xsl:element>
-  </section>
+</xsl:variable>
+<xsl:choose>
+  <xsl:when test="self::h:section[contains(@data-type, 'chapter')]">
+    <xsl:element name="section" namespace="http://www.w3.org/1999/xhtml"><xsl:attribute name="class">slide</xsl:attribute>
+      <xsl:value-of select="{$standard-markup}"/>
+    </xsl:element>
+  </xsl:when>
+  <xsl:otherwise>
+    <xsl:value-of select="{$standard-markup}"/>
+  </xsl:otherwise>
+</xsl:choose>
 </xsl:template>
 
 </xsl:stylesheet>
